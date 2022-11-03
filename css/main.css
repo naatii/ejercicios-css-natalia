@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Black";
+}
+.forma3{
+  color: aqua;
+  background: darkmagenta;
+}
+.forma4{
+  color: crimson;
+  font-weight: bold;
+  background: aquamarine;
+}

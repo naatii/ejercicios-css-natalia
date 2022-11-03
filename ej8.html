@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 8 de css</title>
+</head>
+<style>
+  *{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+  body{
+    background: linear-gradient(180deg, #b3d4fc, mediumpurple) no-repeat;
+    background-size: 100%  100vh;
+
+  }
+  h1{
+    text-align: center;
+  }
+
+  #formulario{
+    border: 1px black solid;
+    box-shadow: black 5px 5px;
+    width: 80%;
+    background: chocolate;
+    text-align: center;
+    margin: 100px auto;
+  }
+  h2{
+    text-align: center;
+    margin: 10px 10px;
+  }
+  label{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 5px;
+    margin: 10px 10px;
+    background: burlywood;
+    color: black;
+    border: 1px black solid;
+
+  }
+
+  input{
+    text-align: center;
+    border: 1px black solid;
+    color: black;
+    margin: 10px auto;
+    background: burlywood;
+    padding: 0 5px;
+  }
+  label{
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  #email{
+    margin-right: 73px;
+    padding: .5px 6px;
+  }
+  #sugerencia-label{
+    position: relative;
+    bottom: 80px;
+    right: 5px;
+  }
+  #sugerencia{
+    border: 1px black solid;
+    color: black;
+    background: burlywood;
+    padding: .5px 5px;
+    margin-top: 5px;
+    margin-right: 14px;
+    resize: none;
+  }
+  button{
+    padding: 20px 20px;
+    background: #555555;
+  }
+  a{
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+  }
+</style>
+<body>
+<h1>Es este caso crearé un formulario básico para que tenga algo la página</h1>
+<div id="formulario">
+  <h2>Formulario</h2>
+  <form action="">
+    <label id="name-label">Nombre</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <label>Apellido</label>
+    <input type="text" name="last-name" id="last-name">
+    <br>
+    <label>Teléfono</label>
+    <input type="phone" name="phone" id="phone">
+    <br>
+    <label id="dirreción-label">Dirección de correo</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <label id="sugerencia-label">Sugerencia</label>
+    <textarea id="sugerencia" rows="10"cols="21" ></textarea>
+
+  </form>
+</div>
+<button>
+  <a href="index.html">Vuelve</a>
+</button>
+</body>
+</html>

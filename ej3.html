@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 3 de css</title>
+  <style>
+    * {
+      font-family: "Courier New", Courier, monospace;
+    }
+
+    #main {
+      background-color: grey;
+    }
+
+    h1.especial {
+      color: blue;
+    }
+
+    h2,
+    h3 {
+      border: 1px solid orange;
+    }
+
+    li {
+      color: red;
+    }
+
+    li li { /*Se aplica a los li dentro de li (sublista)*/
+
+      color: green;
+    }
+
+    p > img { /*para las img  hijas directas de párrafo*/
+      border: 5px solid black;
+    }
+    button{
+      padding: 20px 20px;
+      background: #555555;
+    }
+    a{
+      font-weight: bold;
+      font-size: 30px;
+      text-decoration: none;
+      color: white;
+    }
+
+  </style>
+</head>
+<body id="main">
+<h1 class="especial">Ejercicio 3 de css</h1>
+<h2>titulo h2</h2>
+<h3>Titulo h3</h3>
+<li>
+hola
+  <ol>
+    <li>Hola</li>
+  </ol>
+
+  <p>
+    <img src="img/esqueleto.jpg" alt="foto de un esqueleto">
+  </p>
+</li>
+
+<button>
+  <a href="index.html">Vuelve</a>
+</button>
+</body>
+</html>
